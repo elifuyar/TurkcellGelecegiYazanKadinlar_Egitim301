@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/textView_uygulamaAdi"/>
+
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS" />
+
+    <Button
+        android:id="@+id/send_mail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail" />
+
+</LinearLayout>

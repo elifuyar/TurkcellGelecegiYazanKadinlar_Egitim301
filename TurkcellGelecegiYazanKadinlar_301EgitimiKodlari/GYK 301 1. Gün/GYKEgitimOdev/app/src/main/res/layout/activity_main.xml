@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="gelecegiyazanlar.gykegitimodev.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_resim"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/kelebek"/>
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Kullanıcı Adınız"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/editText_parola"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Parola"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/button_giris"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="GİRİŞ"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

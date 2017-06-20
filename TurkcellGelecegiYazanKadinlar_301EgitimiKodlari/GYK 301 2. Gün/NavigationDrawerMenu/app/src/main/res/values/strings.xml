@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NavigationDrawerMenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="UserAddFragmet">Hello UserAdd fragment</string>
+    <string name="UserListFragment">Hello UserList fragment</string>
+    <string name="IletisimFragment">Hello iletisim fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
